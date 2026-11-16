@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "happygarden-web",
+      "runtimeExecutable": "/usr/bin/env",
+      "runtimeArgs": ["FLET_FORCE_WEB_SERVER=true", "FLET_SERVER_PORT=8551", ".venv/bin/python", "main.py"],
+      "port": 8551
+    }
+  ]
+}

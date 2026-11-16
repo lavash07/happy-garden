@@ -1,0 +1,21 @@
+[project]
+name = "happygarden"
+version = "0.1.0"
+description = "Віртуальна теплиця, город і фазенда. Один Python-код для сайту і iPhone."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "flet>=1.0,<2",
+  "httpx>=0.27",
+]
+
+[tool.flet]
+org = "com.happygarden"
+product = "HappyGarden"
+company = "HappyGarden"
+
+[tool.flet.app]
+module = "main.py"
+
+[tool.flet.ios]
+bundle_id = "com.happygarden.app"

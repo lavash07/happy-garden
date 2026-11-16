@@ -1,0 +1,582 @@
+{
+  "species": [
+    {
+      "species_id": "cucumber",
+      "name": "Огірок",
+      "variety": "загальний",
+      "category": "vegetable",
+      "glyph": "🥒",
+      "color_hex": "#2E7D32",
+      "regrows": true,
+      "verified": false,
+      "stage_days": {
+        "sprout": 7,
+        "growing": 24,
+        "flowering": 8,
+        "fruiting": 8,
+        "ripe": 12
+      },
+      "ideal_soil": "loam",
+      "soil_ph": [
+        6.0,
+        7.0
+      ],
+      "temp_c": [
+        20,
+        28
+      ],
+      "water_every_days": 2,
+      "fertilize_every_days": 14,
+      "summary": "Чернетка для каркаса. Заміни числа і цей текст на довідку з реального джерела і впиши URL у sources.",
+      "tips": [
+        "Тримай землю вологою, без болота",
+        "Тепло без різких холодних ночей"
+      ],
+      "sources": []
+    },
+    {
+      "species_id": "tomato",
+      "name": "Помідор",
+      "variety": "загальний",
+      "category": "vegetable",
+      "glyph": "🍅",
+      "color_hex": "#E53935",
+      "regrows": true,
+      "verified": false,
+      "stage_days": {
+        "sprout": 8,
+        "growing": 30,
+        "flowering": 10,
+        "fruiting": 15,
+        "ripe": 20
+      },
+      "ideal_soil": "loam",
+      "soil_ph": [
+        6.0,
+        6.8
+      ],
+      "temp_c": [
+        18,
+        27
+      ],
+      "water_every_days": 3,
+      "fertilize_every_days": 14,
+      "summary": "Чернетка: числа приблизні, без перевіреного джерела. Заміни їх і впиши URL у sources.",
+      "tips": [
+        "Підв'язуй стебло, коли росте",
+        "Поливай під корінь, не по листю"
+      ],
+      "sources": []
+    },
+    {
+      "species_id": "pepper",
+      "name": "Перець",
+      "variety": "загальний",
+      "category": "vegetable",
+      "glyph": "🫑",
+      "color_hex": "#43A047",
+      "regrows": true,
+      "verified": false,
+      "stage_days": {
+        "sprout": 10,
+        "growing": 35,
+        "flowering": 12,
+        "fruiting": 15,
+        "ripe": 20
+      },
+      "ideal_soil": "loam",
+      "soil_ph": [
+        6.0,
+        6.8
+      ],
+      "temp_c": [
+        20,
+        30
+      ],
+      "water_every_days": 3,
+      "fertilize_every_days": 14,
+      "summary": "Чернетка: числа приблизні, без перевіреного джерела. Заміни їх і впиши URL у sources.",
+      "tips": [
+        "Любить тепло і сонце",
+        "Не пересушуй землю"
+      ],
+      "sources": []
+    },
+    {
+      "species_id": "potato",
+      "name": "Картопля",
+      "variety": "загальний",
+      "category": "vegetable",
+      "glyph": "🥔",
+      "color_hex": "#A1887F",
+      "regrows": false,
+      "verified": false,
+      "stage_days": {
+        "sprout": 14,
+        "growing": 30,
+        "flowering": 14,
+        "fruiting": 20,
+        "ripe": 10
+      },
+      "ideal_soil": "loam",
+      "soil_ph": [
+        5.0,
+        6.0
+      ],
+      "temp_c": [
+        15,
+        22
+      ],
+      "water_every_days": 4,
+      "fertilize_every_days": 21,
+      "summary": "Чернетка: числа приблизні, без перевіреного джерела. Заміни їх і впиши URL у sources.",
+      "tips": [
+        "Підгортай кущ землею",
+        "Не заливай: бульби гниють"
+      ],
+      "sources": []
+    },
+    {
+      "species_id": "carrot",
+      "name": "Морква",
+      "variety": "загальний",
+      "category": "vegetable",
+      "glyph": "🥕",
+      "color_hex": "#FB8C00",
+      "regrows": false,
+      "verified": false,
+      "stage_days": {
+        "sprout": 14,
+        "growing": 30,
+        "flowering": 0,
+        "fruiting": 25,
+        "ripe": 10
+      },
+      "ideal_soil": "sand",
+      "soil_ph": [
+        6.0,
+        6.8
+      ],
+      "temp_c": [
+        15,
+        21
+      ],
+      "water_every_days": 3,
+      "fertilize_every_days": 21,
+      "summary": "Чернетка: числа приблизні, без перевіреного джерела. Заміни їх і впиши URL у sources.",
+      "tips": [
+        "Пухка земля без каменів",
+        "Проріджуй сходи"
+      ],
+      "sources": []
+    },
+    {
+      "species_id": "onion",
+      "name": "Цибуля",
+      "variety": "загальний",
+      "category": "vegetable",
+      "glyph": "🧅",
+      "color_hex": "#8E6E53",
+      "regrows": false,
+      "verified": false,
+      "stage_days": {
+        "sprout": 10,
+        "growing": 40,
+        "flowering": 0,
+        "fruiting": 30,
+        "ripe": 10
+      },
+      "ideal_soil": "loam",
+      "soil_ph": [
+        6.0,
+        7.0
+      ],
+      "temp_c": [
+        13,
+        24
+      ],
+      "water_every_days": 4,
+      "fertilize_every_days": 21,
+      "summary": "Чернетка: числа приблизні, без перевіреного джерела. Заміни їх і впиши URL у sources.",
+      "tips": [
+        "Не поливай перед збором",
+        "Видаляй бур'ян навколо"
+      ],
+      "sources": []
+    },
+    {
+      "species_id": "pumpkin",
+      "name": "Гарбуз",
+      "variety": "загальний",
+      "category": "vegetable",
+      "glyph": "🎃",
+      "color_hex": "#EF6C00",
+      "regrows": false,
+      "verified": false,
+      "stage_days": {
+        "sprout": 7,
+        "growing": 30,
+        "flowering": 10,
+        "fruiting": 30,
+        "ripe": 20
+      },
+      "ideal_soil": "chernozem",
+      "soil_ph": [
+        6.0,
+        7.0
+      ],
+      "temp_c": [
+        20,
+        30
+      ],
+      "water_every_days": 4,
+      "fertilize_every_days": 14,
+      "summary": "Чернетка: числа приблизні, без перевіреного джерела. Заміни їх і впиши URL у sources.",
+      "tips": [
+        "Потребує багато місця",
+        "Поливай рясно, але рідше"
+      ],
+      "sources": []
+    },
+    {
+      "species_id": "zucchini",
+      "name": "Кабачок",
+      "variety": "загальний",
+      "category": "vegetable",
+      "glyph": "🥒",
+      "color_hex": "#558B2F",
+      "regrows": true,
+      "verified": false,
+      "stage_days": {
+        "sprout": 7,
+        "growing": 25,
+        "flowering": 7,
+        "fruiting": 7,
+        "ripe": 12
+      },
+      "ideal_soil": "chernozem",
+      "soil_ph": [
+        6.0,
+        7.5
+      ],
+      "temp_c": [
+        18,
+        27
+      ],
+      "water_every_days": 3,
+      "fertilize_every_days": 14,
+      "summary": "Чернетка: числа приблизні, без перевіреного джерела. Заміни їх і впиши URL у sources.",
+      "tips": [
+        "Збирай молоді плоди",
+        "Поливай теплою водою"
+      ],
+      "sources": []
+    },
+    {
+      "species_id": "pea",
+      "name": "Горох",
+      "variety": "загальний",
+      "category": "vegetable",
+      "glyph": "🫛",
+      "color_hex": "#7CB342",
+      "regrows": true,
+      "verified": false,
+      "stage_days": {
+        "sprout": 10,
+        "growing": 25,
+        "flowering": 7,
+        "fruiting": 10,
+        "ripe": 10
+      },
+      "ideal_soil": "loam",
+      "soil_ph": [
+        6.0,
+        7.5
+      ],
+      "temp_c": [
+        13,
+        21
+      ],
+      "water_every_days": 3,
+      "fertilize_every_days": 21,
+      "summary": "Чернетка: числа приблизні, без перевіреного джерела. Заміни їх і впиши URL у sources.",
+      "tips": [
+        "Дай опору для вусиків",
+        "Любить прохолоду"
+      ],
+      "sources": []
+    },
+    {
+      "species_id": "corn",
+      "name": "Кукурудза",
+      "variety": "загальний",
+      "category": "vegetable",
+      "glyph": "🌽",
+      "color_hex": "#FBC02D",
+      "regrows": false,
+      "verified": false,
+      "stage_days": {
+        "sprout": 7,
+        "growing": 40,
+        "flowering": 10,
+        "fruiting": 20,
+        "ripe": 14
+      },
+      "ideal_soil": "chernozem",
+      "soil_ph": [
+        5.8,
+        7.0
+      ],
+      "temp_c": [
+        18,
+        30
+      ],
+      "water_every_days": 4,
+      "fertilize_every_days": 14,
+      "summary": "Чернетка: числа приблизні, без перевіреного джерела. Заміни їх і впиши URL у sources.",
+      "tips": [
+        "Сади кількома рядами для запилення",
+        "Потребує сонця"
+      ],
+      "sources": []
+    },
+    {
+      "species_id": "cucumber",
+      "name": "Огірок",
+      "variety": "Зозуля F1",
+      "category": "vegetable",
+      "glyph": "🥒",
+      "color_hex": "#2E7D32",
+      "regrows": true,
+      "verified": false,
+      "stage_days": {
+        "sprout": 6,
+        "growing": 20,
+        "flowering": 7,
+        "fruiting": 7,
+        "ripe": 12
+      },
+      "ideal_soil": "loam",
+      "soil_ph": [
+        6.0,
+        7.0
+      ],
+      "temp_c": [
+        20,
+        28
+      ],
+      "water_every_days": 2,
+      "fertilize_every_days": 14,
+      "summary": "Чернетка: числа приблизні, без перевіреного джерела. Заміни їх і впиши URL у sources.",
+      "tips": [
+        "Ранній гібрид: перші плоди швидше за інших",
+        "Тримай землю вологою, без болота"
+      ],
+      "sources": []
+    },
+    {
+      "species_id": "cucumber",
+      "name": "Огірок",
+      "variety": "Конкурент",
+      "category": "vegetable",
+      "glyph": "🥒",
+      "color_hex": "#2E7D32",
+      "regrows": true,
+      "verified": false,
+      "stage_days": {
+        "sprout": 7,
+        "growing": 24,
+        "flowering": 8,
+        "fruiting": 8,
+        "ripe": 14
+      },
+      "ideal_soil": "loam",
+      "soil_ph": [
+        6.0,
+        7.0
+      ],
+      "temp_c": [
+        20,
+        28
+      ],
+      "water_every_days": 2,
+      "fertilize_every_days": 14,
+      "summary": "Чернетка: числа приблизні, без перевіреного джерела. Заміни їх і впиши URL у sources.",
+      "tips": [
+        "Середньоранній, стійкий до хвороб",
+        "Тримай землю вологою, без болота"
+      ],
+      "sources": []
+    },
+    {
+      "species_id": "cucumber",
+      "name": "Огірок",
+      "variety": "Ніжинський",
+      "category": "vegetable",
+      "glyph": "🥒",
+      "color_hex": "#2E7D32",
+      "regrows": true,
+      "verified": false,
+      "stage_days": {
+        "sprout": 8,
+        "growing": 28,
+        "flowering": 9,
+        "fruiting": 9,
+        "ripe": 14
+      },
+      "ideal_soil": "loam",
+      "soil_ph": [
+        6.0,
+        7.0
+      ],
+      "temp_c": [
+        20,
+        28
+      ],
+      "water_every_days": 2,
+      "fertilize_every_days": 14,
+      "summary": "Чернетка: числа приблизні, без перевіреного джерела. Заміни їх і впиши URL у sources.",
+      "tips": [
+        "Середньостиглий, класика для засолювання",
+        "Тримай землю вологою, без болота"
+      ],
+      "sources": []
+    },
+    {
+      "species_id": "eggplant",
+      "name": "Баклажан",
+      "variety": "загальний",
+      "category": "vegetable",
+      "glyph": "🍆",
+      "color_hex": "#6A1B9A",
+      "regrows": true,
+      "verified": false,
+      "stage_days": {
+        "sprout": 10,
+        "growing": 45,
+        "flowering": 12,
+        "fruiting": 20,
+        "ripe": 20
+      },
+      "ideal_soil": "loam",
+      "soil_ph": [
+        6.0,
+        7.0
+      ],
+      "temp_c": [
+        22,
+        30
+      ],
+      "water_every_days": 3,
+      "fertilize_every_days": 14,
+      "summary": "Чернетка: числа приблизні, без перевіреного джерела. Заміни їх і впиши URL у sources.",
+      "tips": [
+        "Дуже любить тепло",
+        "Поливай теплою водою під корінь"
+      ],
+      "sources": []
+    },
+    {
+      "species_id": "eggplant",
+      "name": "Баклажан",
+      "variety": "Епік F1",
+      "category": "vegetable",
+      "glyph": "🍆",
+      "color_hex": "#6A1B9A",
+      "regrows": true,
+      "verified": false,
+      "stage_days": {
+        "sprout": 8,
+        "growing": 38,
+        "flowering": 10,
+        "fruiting": 16,
+        "ripe": 20
+      },
+      "ideal_soil": "loam",
+      "soil_ph": [
+        6.0,
+        7.0
+      ],
+      "temp_c": [
+        22,
+        30
+      ],
+      "water_every_days": 3,
+      "fertilize_every_days": 14,
+      "summary": "Чернетка: числа приблизні, без перевіреного джерела. Заміни їх і впиши URL у sources.",
+      "tips": [
+        "Ранній гібрид з великими плодами",
+        "Дуже любить тепло"
+      ],
+      "sources": []
+    },
+    {
+      "species_id": "eggplant",
+      "name": "Баклажан",
+      "variety": "Алмаз",
+      "category": "vegetable",
+      "glyph": "🍆",
+      "color_hex": "#6A1B9A",
+      "regrows": true,
+      "verified": false,
+      "stage_days": {
+        "sprout": 10,
+        "growing": 45,
+        "flowering": 12,
+        "fruiting": 20,
+        "ripe": 20
+      },
+      "ideal_soil": "loam",
+      "soil_ph": [
+        6.0,
+        7.0
+      ],
+      "temp_c": [
+        22,
+        30
+      ],
+      "water_every_days": 3,
+      "fertilize_every_days": 14,
+      "summary": "Чернетка: числа приблизні, без перевіреного джерела. Заміни їх і впиши URL у sources.",
+      "tips": [
+        "Середньостиглий, невибагливий",
+        "Дуже любить тепло"
+      ],
+      "sources": []
+    },
+    {
+      "species_id": "eggplant",
+      "name": "Баклажан",
+      "variety": "Чорний красень",
+      "category": "vegetable",
+      "glyph": "🍆",
+      "color_hex": "#6A1B9A",
+      "regrows": true,
+      "verified": false,
+      "stage_days": {
+        "sprout": 12,
+        "growing": 50,
+        "flowering": 12,
+        "fruiting": 22,
+        "ripe": 20
+      },
+      "ideal_soil": "loam",
+      "soil_ph": [
+        6.0,
+        7.0
+      ],
+      "temp_c": [
+        22,
+        30
+      ],
+      "water_every_days": 3,
+      "fertilize_every_days": 14,
+      "summary": "Чернетка: числа приблизні, без перевіреного джерела. Заміни їх і впиши URL у sources.",
+      "tips": [
+        "Пізніший, зате врожайний",
+        "Дуже любить тепло"
+      ],
+      "sources": []
+    }
+  ]
+}

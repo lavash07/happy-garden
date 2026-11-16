@@ -1,0 +1,7 @@
+"""Короткі id. Усі нові записи беруть id звідси."""
+
+from uuid import uuid4
+
+
+def new_id() -> str:
+    return uuid4().hex[:12]
